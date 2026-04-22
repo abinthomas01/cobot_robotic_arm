@@ -36,7 +36,10 @@ like that the RViz is a visual debugging + planning tool, running continusly, ea
 it will provide the sensor data, like camera, etc.. 
 next is moveit, it's a motion planning system for robots, it will calculate the path from one position to another position, and avoide the colition which is in the path, this will convert the joint angles, from one position to another position
 
-after the installation check is everything is there, the files wont be there, some files will be missing, so check carefully, for that i will give my full list of files, in different systen the files will be different.
+after the installation check is everything is there, the files wont be there, some files will be missing, so check carefully, for that i will give my full list of files, in different systen the files will be different, that time my gazebo is looks like this, withot the robot, just empty world.
+
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-06%2011-06-44.png" />
+
 after these installation we need to downlod the cobot robot, if you ask about that to chat gpt you will get the code, i dont that with terminal.
 the first problem i faced is the robot is not showing inside the gazebo, so i checked everything from the beginning, that's how i understand i didnt downlod few files, adn i didnt movit, after the installation i check once more but that was not there, with the help of claude AI i understand the rbot was not there it is because the updated file, the old version will work but the updated version of the robot wont work, so check the version, always check the version is compatable or not.
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-06%2011-06-44.png" />
