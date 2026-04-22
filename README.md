@@ -47,7 +47,7 @@ the first problem i faced is the robot is not showing inside the gazebo, so i ch
 the robot appeared on the gazebo the next step is giving a gripper to the cobot, so we choose vacuum gripper insted of 2 finger gripper, we installed the packages for the gripper using claude, the gripper is also now showing at the beginning the i check inside the gazebo the i changed few things drom it, i will provide the picture
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-18%2014-58-23.png" />
 after the installation of gripper the robot will looks like this
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-10%2014-18-01.png" />
 
 the next step is to build few thing in gazebo which is build the table, 6 boxes, 3 different color basket, but is seems like 1 basket, so for that we installed vs code and all the files give to vs code, exactly saying, the ur5_ws folder, i uploded there so we can add and edit the code easly, 
 i will sent the code, i done in the vs code, just put exactly like that, check "spown_box.py" code
@@ -63,19 +63,19 @@ Vacuum OFF ->
 Home
 
 if you want to see the boxes inside the rviz you can use the "add_seen_object.py", so that way it will be easy to see and controll the robotic arm
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-18%2014-45-52.png" />
 
 now it will work well, but the thing is it is fixed position, the boxes and the robot, not dynamic.
 
 i give my boxe's position and the robot position, it will move one position to another, 
 eg: if we are in home position and if we need to move above the box we need to give 2 location, i is home's position and the above the box position, based on the position the joint angle will change. 
 
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-04-22%2013-43-05.png" />
 
 
 after the working we updated few things, i tryed to do that dynamicaly, so for that i added camera n top of the robot, first i tried to place in the robot arm, but that will not work in simulation, because of the camera view, if we add the camera on top of the gripper when it try to pick the box the camera view pass through the boxes, so the picking won't work, the line and the mirrir like thing, that is the camera view, 
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-28%2022-07-55.png" />
 
 now the camera on top of the robot like this
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-04-21%2020-18-15.png" />
 
