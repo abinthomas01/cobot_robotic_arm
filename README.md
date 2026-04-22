@@ -42,7 +42,7 @@ after the installation check is everything is there, the files wont be there, so
 
 after these installation we need to downlod the cobot robot, if you ask about that to chat gpt you will get the code, i dont that with terminal.
 the first problem i faced is the robot is not showing inside the gazebo, so i checked everything from the beginning, that's how i understand i didnt downlod few files, adn i didnt movit, after the installation i check once more but that was not there, with the help of claude AI i understand the rbot was not there it is because the updated file, the old version will work but the updated version of the robot wont work, so check the version, always check the version is compatable or not.
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-06%2011-06-44.png" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-08%2016-33-47.png" />
 
 the robot appeared on the gazebo the next step is giving a gripper to the cobot, so we choose vacuum gripper insted of 2 finger gripper, we installed the packages for the gripper using claude, the gripper is also now showing at the beginning the i check inside the gazebo the i changed few things drom it, i will provide the picture
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
