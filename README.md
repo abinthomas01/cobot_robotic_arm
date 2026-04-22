@@ -53,7 +53,7 @@ the robot appeared on the gazebo the next step is giving a gripper to the cobot,
 after the installation of gripper the robot will looks like this
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-10%2014-18-01.png" />
 
-the next step is to build few thing in gazebo which is build the table, 6 boxes, 3 different color basket, but is seems like 1 basket, so for that we installed vs code and all the files give to vs code, exactly saying, the ur5_ws folder, i uploded there so we can add and edit the code easly, 
+the next step is to build few thing in gazebo which is build the table, 6 boxes, 1 basket, so for that we installed vs code and all the files give to vs code, exactly saying, the ur5_ws folder, i uploded there so we can add and edit the code easly, 
 i will sent the code, i done in the vs code, just put exactly like that, check "old_spawn_box.py" code
 "red_box.py", check that code that is for working all at onece, once we run the code the robot will star to move and take all the boxes one by one, place it over the basket based on the color, first blue box, then the red box, after that the green box. it will pick one by one and place in order.
 we give 4 position for movement, Home -> Move ABOVE box -> Lift UP -> Move to basket, then again going to home, 
@@ -77,7 +77,7 @@ eg: if we are in home position and if we need to move above the box we need to g
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-04-22%2013-43-05.png" />
 
 
-after the working we updated few things, i tryed to do that dynamicaly, so for that i added camera n top of the robot, first i tried to place in the robot arm, but that will not work in simulation, because of the camera view, if we add the camera on top of the gripper when it try to pick the box the camera view pass through the boxes, so the picking won't work, the line and the mirrir like thing, that is the camera view, 
+after the working we updated few things,the basket changed, i made 3 basket in 3 different color, same as the box color, i tryed to do the pick and place dynamicaly, so for that i added camera on top of the robot, first i tried to place in the robot arm, but that will not work in simulation, because of the camera view, if we add the camera on top of the gripper when it try to pick the box the camera view pass through the boxes, so the picking won't work, the line and the mirrir like thing, that is the camera view, 
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-28%2022-07-55.png" />
 
 now the camera on top of the robot like this
