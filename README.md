@@ -45,7 +45,7 @@ the first problem i faced is the robot is not showing inside the gazebo, so i ch
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-08%2016-33-47.png" />
 
 the robot appeared on the gazebo the next step is giving a gripper to the cobot, so we choose vacuum gripper insted of 2 finger gripper, we installed the packages for the gripper using claude, the gripper is also now showing at the beginning the i check inside the gazebo the i changed few things drom it, i will provide the picture
-<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
+<img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-18%2014-58-23.png" />
 after the installation of gripper the robot will looks like this
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/user-attachments/assets/6841e1a0-1e6b-4a49-856b-99f6c44d0e20" />
 
