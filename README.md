@@ -77,7 +77,7 @@ eg: if we are in home position and if we need to move above the box we need to g
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-04-22%2013-43-05.png" />
 
 
-after the working we updated few things,the basket changed, i made 3 basket in 3 different color, same as the box color, i tryed to do the pick and place dynamicaly, so for that i added camera on top of the robot, first i tried to place in the robot arm, but that will not work in simulation, because of the camera view, if we add the camera on top of the gripper when it try to pick the box the camera view pass through the boxes, so the picking won't work, the line and the mirrir like thing, that is the camera view, 
+after the working we updated few things,the basket changed, i made 3 basket in 3 different color, same as the box color,so for that run the "spawn_box.py" code in vs code, and i tryed to do the pick and place dynamicaly, so for that i added camera on top of the robot, first i tried to place in the robot arm, but that will not work in simulation, because of the camera view, if we add the camera on top of the gripper when it try to pick the box the camera view pass through the boxes, so the picking won't work, the line and the mirrir like thing, that is the camera view, 
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-28%2022-07-55.png" />
 
 now the camera on top of the robot like this
