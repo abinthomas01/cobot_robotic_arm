@@ -39,6 +39,7 @@ next is moveit, it's a motion planning system for robots, it will calculate the 
 after the installation check is everything is there, the files wont be there, some files will be missing, so check carefully, for that i will give my full list of files, in different systen the files will be different, that time my gazebo is looks like this, withot the robot, just empty world.
 
 cd ~/ur5_ws && ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py ur_type:=ur5
+
 run this code in terminal so that way the gazebo and rviz will load
 
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-06%2011-06-44.png" />
