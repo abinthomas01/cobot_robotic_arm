@@ -50,7 +50,7 @@ after the installation of gripper the robot will looks like this
 <img width="993" height="612" alt="Screenshot from 2026-03-25 12-31-10" src="https://github.com/abinthomas01/cobot_robotic_arm/blob/main/assets/Screenshot%20from%202026-03-10%2014-18-01.png" />
 
 the next step is to build few thing in gazebo which is build the table, 6 boxes, 3 different color basket, but is seems like 1 basket, so for that we installed vs code and all the files give to vs code, exactly saying, the ur5_ws folder, i uploded there so we can add and edit the code easly, 
-i will sent the code, i done in the vs code, just put exactly like that, check "spown_box.py" code
+i will sent the code, i done in the vs code, just put exactly like that, check "old_spawn_box.py" code
 "red_box.py", check that code that is for working all at onece, once we run the code the robot will star to move and take all the boxes one by one, place it over the basket based on the color, first blue box, then the red box, after that the green box. it will pick one by one and place in order.
 we give 4 position for movement, Home -> Move ABOVE box -> Lift UP -> Move to basket, then again going to home, 
 the working is like this.
